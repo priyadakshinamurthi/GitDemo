@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="CompleteProgram.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)" verbose="0">
+    <classes>
+      <class name="CompleteProgram.validateTitle">
+        <methods>
+          <include name="Title"/>
+        </methods>
+      </class> <!-- CompleteProgram.validateTitle -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

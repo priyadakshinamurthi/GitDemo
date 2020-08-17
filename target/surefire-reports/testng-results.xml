@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-01T17:27:23Z" name="Suite" finished-at="2020-08-01T17:28:00Z" duration-ms="37079">
+    <groups>
+    </groups>
+    <test started-at="2020-08-01T17:27:23Z" name="Test" finished-at="2020-08-01T17:27:50Z" duration-ms="26376">
+      <class name="CompleteProgram.QAHomePage">
+        <test-method signature="run(java.lang.String, java.lang.String)[pri:0, instance:CompleteProgram.QAHomePage@2427e004]" started-at="2020-08-01T17:27:23Z" name="run" data-provider="getData" finished-at="2020-08-01T17:27:37Z" duration-ms="13593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="run(java.lang.String, java.lang.String)[pri:0, instance:CompleteProgram.QAHomePage@2427e004]" started-at="2020-08-01T17:27:37Z" name="run" data-provider="getData" finished-at="2020-08-01T17:27:50Z" duration-ms="12697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[efgh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- CompleteProgram.QAHomePage -->
+    </test> <!-- Test -->
+    <test started-at="2020-08-01T17:27:51Z" name="Test1" finished-at="2020-08-01T17:28:00Z" duration-ms="8805">
+      <class name="CompleteProgram.validateTitle">
+        <test-method signature="Title()[pri:0, instance:CompleteProgram.validateTitle@c00fff0]" started-at="2020-08-01T17:27:51Z" name="Title" finished-at="2020-08-01T17:28:00Z" duration-ms="8804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+      </class> <!-- CompleteProgram.validateTitle -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
