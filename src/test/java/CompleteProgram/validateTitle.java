@@ -24,5 +24,7 @@ private static Logger log = LogManager.getLogger(base.class.getName());
 	log.error("Error occured");
 	Assert.assertEquals(hp.getTitle().getText(), "FEATURED COURSES");
 	System.out.println("Priya");
+	System.out.println("Raina");
+	System.out.println("Dhoni");
  }
 }
