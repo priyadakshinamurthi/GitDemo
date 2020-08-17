@@ -23,6 +23,6 @@ private static Logger log = LogManager.getLogger(base.class.getName());
 	HomePageObjects hp=new HomePageObjects(driver);
 	log.error("Error occured");
 	Assert.assertEquals(hp.getTitle().getText(), "FEATURED COURSES");
-	
+	System.out.println("Priya");
  }
 }
